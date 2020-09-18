@@ -1,5 +1,21 @@
+@import "./base/fonts";
+
 @import "./abstract/reset";
+@import "./abstract/constants";
+@import "./abstract/mixins";
+@import "./abstract/placeholders";
 
 //Base
-@import "base/base";
-@import "base/fonts";
+@import "./base/base";
+@import "./base/buttons";
+@import "./base/icons";
+
+//Layouts
+@import "layouts/wrapper";
+@import "layouts/header";
+
+//Components
+@import "components/navigation";
+@import "components/you-life";
+@import "components/rappresent";
+@import "components/comunity";

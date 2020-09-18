@@ -1,0 +1,27 @@
+.rappresent {
+    padding: 120px 0 140px;
+}
+
+.rappresent__wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.rappresent__content {
+    width: 407px;
+    margin-left: 267px;
+}
+
+.rappresent__title {
+    margin-right: 20px;
+}
+
+.rappresent__text {
+    @include font($size: 1.4rem, $height: 145%);
+    margin: 23px 0 30px;
+}
+
+.rappresent__image {
+    margin-right: 270px;
+}

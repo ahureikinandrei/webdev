@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Webdev</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
@@ -13,10 +14,10 @@
         <div class="wrapper">
             <nav class="header__navigation">
                 <ul class="navigation">
-                    <li class="navigation__item"><a href="#" class="active">About</a></li>
+                    <li class="navigation__item navigation__item_active"><a href="#" class="active">About</a></li>
                     <li class="navigation__item"><a href="#">Syllabus</a></li>
                     <li class="navigation__item navigation__item_logo"><a href="#" class="logo">
-                            <object type="image/svg+xml" data="./assets/" class="logo-object">
+                            <object type="image/svg+xml" data="./assets/image/logo/logo.svg" class="logo-object">
                                 Your browser does not support SVG
                             </object>
                         </a></li>
@@ -27,42 +28,45 @@
         </div>
     </header>
     <section class="you-life">
-        <div class="wrapper">
-            <h2 class="you-life__title">you life is webdev</h2>
-            <p class="you-life__discription">Whatever the approach to development may be, the final program must satisfy
+        <div class="wrapper you-life__wrapper">
+            <h2 class="you-life__title">your life is webdev</h2>
+            <p class="you-life__discription">Whatever the approach to development may be, the final<br> program must
+                satisfy
                 some fundamental properties</p>
             <button class="you-life__button button">get started</button>
             <div class="you-life__social social">
                 <span class="socia__icon icon">
-                    <span class="icon__mail"></span>
+                    <span class="icon-social icon-social_mail"></span>
                 </span>
                 <span class="socia__icon icon">
-                    <span class="icon__face-book"></span>
+                    <span class="icon-social icon-social_face-book"></span>
                 </span>
                 <span class="socia__icon icon">
-                    <span class="icon__insta"></span>
+                    <span class="icon-social icon-social_insta"></span>
                 </span>
                 <span class="socia__icon icon">
-                    <span class="icon__telegram"></span>
+                    <span class="icon-social icon-social_telegram"></span>
                 </span>
             </div>
         </div>
     </section>
     <section class="rappresent">
         <div class="wrapper rappresent__wrapper">
-            <h3 class="rappresent__title">Rappresent your idea with a smart Design</h3>
-            <p class="rappresent__text">Tasks accompanying and related to programming include: testing, debugging,
-                source code maintenance,
-                <strong>implementation of build systems,</strong> and management of derived artifacts, such as the
-                machine code of computer programs.</p>
-            <button class="rappresent button">get started</button>
-            <img src="" alt="" class="rappresent__image">
+            <div class="rappresent__content">
+                <h3 class="rappresent__title">Rappresent your idea with a smart Design</h3>
+                <p class="rappresent__text">Tasks accompanying and related to programming include: testing, debugging,
+                    source code maintenance,
+                    <strong>implementation of build systems,</strong> and management of derived artifacts, such as the
+                    machine code of computer programs.</p>
+                <button class="rappresent__button button">get started</button>
+            </div>
+            <img src="./assets/image/content-image-1.png" alt="rappresent image" class="rappresent__image">
         </div>
     </section>
     <section class="community">
         <div class="wrapper community__wrapper">
             <div class="communit__discription">
-                <img src="" alt="our community" class="community__photo">
+                <img src="./assets/image/comunity.png" alt="our community" class="community__photo">
                 <h4 class="communit__title">our community</h4>
                 <p class="communit__text">A hacker is any skilled computer expert that uses their technical knowledge to
                     overcome a problem, but it can also mean a security hacker in common language</p>
@@ -90,7 +94,7 @@
             <p class="implement__text">These might be considered part of the <strong>programming process</strong>,
                 but often the term software development is used for this larger process with the term programming,
                 implementation</p>
-            <button class="rappresent button">learn more</button>
+            <button class="implement__button button">learn more</button>
         </div>
     </section>
     <section class="subscribe">
@@ -127,7 +131,7 @@
                 </ul>
             </div>
             <div class="footer__logo">
-                <object type="image/svg+xml" data="./assets/" class="footer-logo-object">
+                <object type="image/svg+xml" data="./assets/image/logo/logo-footer.svg" class="footer-logo-object">
                     Your browser does not support SVG
                 </object>
             </div>

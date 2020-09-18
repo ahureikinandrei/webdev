@@ -1,0 +1,18 @@
+.button {
+    width: 184px;
+    height: 46px;
+    background-color: $color-buttons;
+    @extend %font-prim;
+    @include font($size: 1.4rem, $height: 16px, $weight: bold);
+    color: $color-white;
+    text-transform: uppercase;
+    border: none;
+    &:active {
+        border: none;
+        outline: none;
+      }
+    &:focus {
+        border: none;
+        outline: none;
+    }
+}

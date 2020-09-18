@@ -1,0 +1,31 @@
+.icon {
+    cursor: pointer;
+    display: inline-block;
+}
+
+.socia__icon {
+    width: 20px;
+    height: 20px;
+}
+
+.icon-social {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.icon-social_mail {
+    background-image: url("./assets/image/social-icons/mail_fff.svg");
+}
+
+.icon-social_face-book {
+    background-image: url("./assets/image/social-icons/facebook_fff.svg");
+}
+
+.icon-social_insta {
+    background-image: url("./assets/image/social-icons/insta_fff.svg");
+}
+
+.icon-social_telegram {
+    background-image: url("./assets/image/social-icons/telegram_fff.svg");
+}
