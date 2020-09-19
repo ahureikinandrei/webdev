@@ -1,0 +1,49 @@
+.slider__controol {
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 269px;
+    margin-bottom: 15px;
+}
+
+.controll__panel    {
+    display: flex;
+    align-items: center;
+}
+
+.controll__item {
+    display: block;
+    @include font($size: 1.8rem);
+    width: 9px;
+    height: 25px;
+}
+
+.controll__arrow_left {
+    background-position: center;
+    background-image: url("./assets/image/Arrow-left.svg");
+    background-repeat: no-repeat;
+    transform: translate(-22px, -3px);
+}
+.controll__arrow_right {
+    height: 18px;
+    margin-left: 14px;
+    background-image: url("./assets/image/Arrow-right.svg");
+    background-repeat: no-repeat;
+    transform: translate(3px, -2px);
+}
+
+.controll__last-page {
+    transform: translateY(-2px);
+}
+
+.controll__page-separator {
+    transform: translate(-2px, -2px);
+}
+
+.controll__current-page {
+    transform: translate(-7px, -2px);
+}
+
+.slider__content {
+    display: flex;
+    gap: 30px;
+}

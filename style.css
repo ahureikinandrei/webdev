@@ -108,6 +108,15 @@ h3 {
   text-transform: uppercase;
 }
 
+h4 {
+  font-size: 1.6rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 2rem;
+  letter-spacing: 2.4px;
+  text-transform: uppercase;
+}
+
 .button {
   width: 184px;
   height: 46px;
@@ -127,6 +136,11 @@ h3 {
 .button:focus {
   border: none;
   outline: none;
+}
+
+.button_submit {
+  width: 66px;
+  height: 46px;
 }
 
 .icon {
@@ -159,6 +173,12 @@ h3 {
 
 .icon-social_telegram {
   background-image: url("./assets/image/social-icons/telegram_fff.svg");
+}
+
+.icon_send {
+  width: 18px;
+  height: 14px;
+  background-image: url("./assets/image/fa-check.svg");
 }
 
 .wrapper {
@@ -292,8 +312,179 @@ h3 {
   margin-right: 270px;
 }
 
+.community {
+  padding: 80px 0 140px;
+  background-color: #F5F6F7;
+  overflow: hidden;
+}
+
 .community__wrapper {
   display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.communit__title {
+  height: 20px;
+  margin: 20px 0 10px;
+}
+
+.communit__discription {
+  padding-top: 35px;
+  width: 298px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 139px;
+}
+
+.community__slider {
+  width: 894px;
+  height: 284px;
+}
+
+.community__text-wrapper {
+  display: block;
+  height: 80px;
+}
+
+.communit__text {
+  text-align: center;
+  font-size: 1.4rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 144%;
+}
+
+.community__photo {
+  margin-top: 5px;
+}
+
+.slider__controol {
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 269px;
+  margin-bottom: 15px;
+}
+
+.controll__panel {
+  display: flex;
+  align-items: center;
+}
+
+.controll__item {
+  display: block;
+  font-size: 1.8rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%;
+  width: 9px;
+  height: 25px;
+}
+
+.controll__arrow_left {
+  background-position: center;
+  background-image: url("./assets/image/Arrow-left.svg");
+  background-repeat: no-repeat;
+  transform: translate(-22px, -3px);
+}
+
+.controll__arrow_right {
+  height: 18px;
+  margin-left: 14px;
+  background-image: url("./assets/image/Arrow-right.svg");
+  background-repeat: no-repeat;
+  transform: translate(3px, -2px);
+}
+
+.controll__last-page {
+  transform: translateY(-2px);
+}
+
+.controll__page-separator {
+  transform: translate(-2px, -2px);
+}
+
+.controll__current-page {
+  transform: translate(-7px, -2px);
+}
+
+.slider__content {
+  display: flex;
+  gap: 30px;
+}
+
+.implement__wrapper {
+  padding: 120px 0 140px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.implement__content {
+  width: 407px;
+  margin-right: 378px;
+}
+
+.implement__title {
+  transform: translateY(2px);
+}
+
+.implement__text {
+  font-size: 1.4rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 145%;
+  margin: 23px 0 31px;
+}
+
+.implement__image {
+  margin-left: 269px;
+}
+
+.implement__button {
+  width: 180px;
+  padding: 16px 47px 14px 47px;
+  transform: translateY(-2px);
+  font-size: 1.4rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 16px;
+}
+
+.subscribe__wrapper {
+  padding: 217px 0 277px;
+  background-image: url("./assets/image/pexels-christina-morillo.png");
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.subscribe__title {
+  color: #FFFFFF;
+  margin-bottom: 30px;
+}
+
+.subscribe__form {
+  display: flex;
+}
+.subscribe__form input {
+  width: 317px;
+  border: none;
+  padding: 14px 0 12px 24px;
+}
+.subscribe__form input:focus {
+  outline: none;
+}
+.subscribe__form .button_submit {
+  padding: 15px 24px;
+  border: none;
+  background-color: #00AFDB;
+}
+.subscribe__form .button_submit:focus, .subscribe__form .button_submit :active {
+  border: none;
+  outline: none;
 }
 
 /*# sourceMappingURL=style.css.map */

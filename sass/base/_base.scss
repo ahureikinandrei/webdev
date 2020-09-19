@@ -30,3 +30,9 @@ h3 {
     letter-spacing: 1px;
     text-transform: uppercase;
 }
+
+h4 {
+    @include font($size: 1.6rem, $height: 2.0rem, $weight: 500);
+    letter-spacing: 2.4px;
+    text-transform: uppercase;
+}

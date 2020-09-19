@@ -1,0 +1,31 @@
+.implement__wrapper {
+    padding: 120px 0 140px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.implement__content {
+    width: 407px;
+    margin-right: 378px;
+}
+
+.implement__title {
+    transform: translateY(2px);
+}
+
+.implement__text {
+    @include font($size: 1.4rem, $height: 145%);
+    margin: 23px 0 31px;
+}
+
+.implement__image {
+    margin-left: 269px;
+}
+
+.implement__button {
+    width: 180px;
+    padding: 16px 47px 14px 47px;
+    transform: translateY(-2px);
+    @include font($size: 1.4rem, $height: 16px, $weight: 500);
+}

@@ -68,33 +68,43 @@
             <div class="communit__discription">
                 <img src="./assets/image/comunity.png" alt="our community" class="community__photo">
                 <h4 class="communit__title">our community</h4>
-                <p class="communit__text">A hacker is any skilled computer expert that uses their technical knowledge to
-                    overcome a problem, but it can also mean a security hacker in common language</p>
+                <div class="community__text-wrapper">
+                    <p class="communit__text">A hacker is any skilled computer expert that uses their technical
+                        knowledge to
+                        overcome a problem, but it can also mean a security hacker in common language</p>
+                </div>
             </div>
             <div class="community__slider slider">
                 <div class="slider__controol controll">
-                    <span class="controll__arrow controll__arrow_left"></span>
-                    <span class="controll__current-page"></span>
-                    <span class="controll__page-separator"></span>
-                    <span class="controll__last-page"></span>
-                    <span class="controll__arrow controll__arrow_right"></span>
+                    <div class="controll__panel">
+                        <span class="controll__item controll__arrow_left"></span>
+                        <span class="controll__item controll__current-page">1</span>
+                        <span class="controll__item controll__page-separator">/</span>
+                        <span class="controll__item controll__last-page">5</span>
+                        <span class="controll__item controll__arrow_right"></span>
+                    </div>
                 </div>
                 <div class="slider__content">
-                    <div class="slider__item slide"><img src="" alt="" class="slide__img"></div>
-                    <div class="slider__item slide"><img src="" alt="" class="slide__img"></div>
-                    <div class="slider__item slide"><img src="" alt="" class="slide__img"></div>
+                    <div class="slider__item slide"><img src="./assets/image/slids/slider-item-1.png" alt="slide"
+                            class="slide__img"></div>
+                    <div class="slider__item slide"><img src="./assets/image/slids/slider-item-2.png" alt="slide"
+                            class="slide__img"></div>
+                    <div class="slider__item slide"><img src="./assets/image/slids/slider-item-3.png" alt="slide"
+                            class="slide__img"></div>
                 </div>
             </div>
         </div>
     </section>
     <section class="implement">
         <div class="wrapper implement__wrapper">
-            <img src="" alt="" class="implement__image">
-            <h3 class="implement__title">Implement right Code</h3>
-            <p class="implement__text">These might be considered part of the <strong>programming process</strong>,
-                but often the term software development is used for this larger process with the term programming,
-                implementation</p>
-            <button class="implement__button button">learn more</button>
+            <img src="./assets/image/content-image-2.png" alt="implement image" class="implement__image">
+            <div class="implement__content">
+                <h3 class="implement__title">Implement right Code</h3>
+                <p class="implement__text">These might be considered part of the <strong>programming process</strong>,
+                    but often the term software development is used for this larger process with the term programming,
+                    implementation</p>
+                <button class="implement__button button">learn more</button>
+            </div>
         </div>
     </section>
     <section class="subscribe">
@@ -103,7 +113,7 @@
             <form action="post">
                 <div class="subscribe__form">
                     <input type="email" name="email" placeholder="E-mail">
-                    <input type="submit" class="button_submit">
+                    <button type="button" class="button_submit"><span class="icon icon_send"></span></button>
                 </div>
             </form>
         </div>

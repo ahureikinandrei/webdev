@@ -1,0 +1,38 @@
+.subscribe__wrapper {
+    padding: 217px 0 277px;
+    background-image: url("./assets/image/pexels-christina-morillo.png");
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.subscribe__title {
+    color: $color-white;
+    margin-bottom: 30px;
+}
+
+.subscribe__form {
+    display: flex;
+    input{
+        width: 317px;
+        border: none;
+        padding: 14px 0 12px 24px;
+        &:focus {
+            outline: none;
+        }
+
+
+    }
+    & .button_submit {
+        padding: 15px 24px;
+        border: none;
+        background-color: $color-buttons;
+        &:focus,:active {
+            border: none;
+            outline: none;
+        }
+    }
+}
+
+
