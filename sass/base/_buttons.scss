@@ -3,7 +3,7 @@
     height: 46px;
     background-color: $color-buttons;
     @extend %font-prim;
-    @include font($size: 1.4rem, $height: 16px, $weight: bold);
+    @include font($size: 1.4rem, $height: 16px, $weight: 500);
     color: $color-white;
     text-transform: uppercase;
     border: none;
@@ -20,4 +20,14 @@
 .button_submit {
     width: 66px;
     height: 46px;
+}
+
+.button_download {
+    width: 188px;
+    height: 50px;
+    display: flex;
+    padding: 3px 0px 2px 0;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 18px;
 }

@@ -35,3 +35,22 @@
     height: 14px;
     background-image: url("./assets/image/fa-check.svg"); 
 }
+
+.button__ico {
+    display: inline-flex;
+    width: 60px;
+    height: 100%;
+    background-color: $download-buttons-icon;
+}
+
+.button__ico_apple {
+    background-image: url("./assets/image/apple.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.button__ico_android {
+    background-image: url("./assets/image/icon-android.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+}

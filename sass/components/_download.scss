@@ -1,0 +1,28 @@
+.download {
+    margin-top: 10px;
+    background-color: $community-bg-color;
+}
+
+.download__wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.download__title {
+    margin: 110px 0 22px;
+}
+
+.download__discription {
+    width: 483px;
+    text-align: center;
+    margin-bottom: 30px;
+    line-height: 140%;
+}
+
+.download__buttons {
+    display: flex;
+    gap: 30px;
+    margin-bottom: 179px;
+}

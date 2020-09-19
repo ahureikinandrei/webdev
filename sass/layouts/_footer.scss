@@ -1,0 +1,39 @@
+.footer {
+    background-color: $color-bg-primary;
+}
+
+.footer__wrapper {
+    padding: 77px 191px 93px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+}
+
+.footer__logo {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.footer-navigation {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    & a {
+        color: $color-white;
+        text-decoration: none;
+    }
+}
+
+.footer-navigation__separator {
+    display: inline-block;
+    width: 0.5px;
+    height: 9px;
+    opacity: 0.2;
+    background-color: $color-white;
+}
+
+.footer__privacy-policy {
+    color: $private-polisy-color;
+}
