@@ -28,7 +28,10 @@
         padding: 15px 24px;
         border: none;
         background-color: $color-buttons;
-        &:focus,:active {
+        cursor: pointer;
+        @extend %transition;
+        &:focus, &:active, &:hover {
+            background-color: $download-buttons-icon;
             border: none;
             outline: none;
         }

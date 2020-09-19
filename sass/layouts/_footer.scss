@@ -21,8 +21,13 @@
     align-items: center;
     gap: 20px;
     & a {
+        @extend %transition;
         color: $color-white;
         text-decoration: none;
+        &:hover {
+            opacity: 0.7;
+            color: $download-buttons-icon;
+        }
     }
 }
 
@@ -36,4 +41,16 @@
 
 .footer__privacy-policy {
     color: $private-polisy-color;
+}
+
+.footer-logo {
+    display: block;
+    cursor: pointer;
+    z-index: 1000;
+    left: 50%;
+    transform: translateX(-50%);
+    @extend %transition;
+    &:hover {
+        opacity: 0.7;
+    }
 }

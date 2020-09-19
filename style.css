@@ -63,6 +63,10 @@ table {
   border-spacing: 0;
 }
 
+.subscribe__form .button_submit, .navigation__item, .footer-logo, .footer-navigation a, .icon-social, .button {
+  transition: all 0.3s ease-out;
+}
+
 .button, body {
   font-family: Roboto, Verdana, sans-serif;
 }
@@ -128,14 +132,12 @@ h4 {
   color: #FFFFFF;
   text-transform: uppercase;
   border: none;
+  cursor: pointer;
 }
-.button:active {
+.button:active, .button:focus, .button:hover {
   border: none;
   outline: none;
-}
-.button:focus {
-  border: none;
-  outline: none;
+  background-color: #009CC2;
 }
 
 .button_submit {
@@ -172,17 +174,29 @@ h4 {
 .icon-social_mail {
   background-image: url("./assets/image/social-icons/mail_fff.svg");
 }
+.icon-social_mail:hover {
+  background-image: url("./assets/image/social-icons/mail_fff2.svg");
+}
 
 .icon-social_face-book {
   background-image: url("./assets/image/social-icons/facebook_fff.svg");
+}
+.icon-social_face-book:hover {
+  background-image: url("./assets/image/social-icons/facebook_fff2.svg");
 }
 
 .icon-social_insta {
   background-image: url("./assets/image/social-icons/insta_fff.svg");
 }
+.icon-social_insta:hover {
+  background-image: url("./assets/image/social-icons/insta_fff2.svg");
+}
 
 .icon-social_telegram {
   background-image: url("./assets/image/social-icons/telegram_fff.svg");
+}
+.icon-social_telegram:hover {
+  background-image: url("./assets/image/social-icons/telegram_fff2.svg");
 }
 
 .icon_send {
@@ -246,6 +260,10 @@ h4 {
   color: #FFFFFF;
   text-decoration: none;
 }
+.footer-navigation a:hover {
+  opacity: 0.7;
+  color: #009CC2;
+}
 
 .footer-navigation__separator {
   display: inline-block;
@@ -257,6 +275,17 @@ h4 {
 
 .footer__privacy-policy {
   color: #818181;
+}
+
+.footer-logo {
+  display: block;
+  cursor: pointer;
+  z-index: 1000;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.footer-logo:hover {
+  opacity: 0.7;
 }
 
 .navigation {
@@ -275,6 +304,9 @@ h4 {
   color: #FFFFFF;
   flex-grow: 0;
 }
+.navigation__item:hover {
+  opacity: 0.7;
+}
 .navigation__item:nth-child(1) {
   flex: 0 1 38px;
 }
@@ -288,7 +320,6 @@ h4 {
   flex: 0 1 38px;
 }
 .navigation__item > a {
-  display: inline-block;
   color: #FFFFFF;
   text-decoration: none;
   position: relative;
@@ -552,8 +583,10 @@ h4 {
   padding: 15px 24px;
   border: none;
   background-color: #00AFDB;
+  cursor: pointer;
 }
-.subscribe__form .button_submit:focus, .subscribe__form .button_submit :active {
+.subscribe__form .button_submit:focus, .subscribe__form .button_submit:active, .subscribe__form .button_submit:hover {
+  background-color: #009CC2;
   border: none;
   outline: none;
 }

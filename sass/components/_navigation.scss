@@ -10,9 +10,15 @@
     @include font($size: 1.4rem, $height: 1.4rem, $weight: 400);
     color: $color-white;
     flex-grow: 0;
+    @extend %transition;
+    &:hover {
+        opacity: 0.7;
+    }
+
     &:nth-child(1) {
         flex: 0 1 38px;
     }
+
     &:nth-child(2) {
         margin-left: 85px;
     }
@@ -26,7 +32,6 @@
     }
 
     & > a {
-        display: inline-block;
         color: $color-white;
         text-decoration: none;
         position: relative;

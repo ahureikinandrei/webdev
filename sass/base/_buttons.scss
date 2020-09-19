@@ -7,14 +7,13 @@
     color: $color-white;
     text-transform: uppercase;
     border: none;
-    &:active {
+    @extend %transition;
+    cursor: pointer;
+    &:active, &:focus, &:hover {       
         border: none;
         outline: none;
+        background-color: $download-buttons-icon;
       }
-    &:focus {
-        border: none;
-        outline: none;
-    }
 }
 
 .button_submit {
